@@ -5,7 +5,7 @@ spring:
 server:
   port: 8001
 mybatis:
-  mapper-locations:
+  mapper-locations: classpath:mapper/*
 spring:
   application:
     name: microservice-product-config
