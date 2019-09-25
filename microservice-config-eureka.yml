@@ -10,12 +10,12 @@ spring:
     name: microservice-config-eureka
 eureka:
   instance:
-    hostname: eureka6001.com
+    hostname: localhost
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://eureka6001.com:6001/eureka/
+      defaultZone: http://localhost:6001/eureka/
   server:
     enable-self-preservation: false
 ---
