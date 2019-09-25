@@ -8,7 +8,7 @@ mybatis:
   mapper-locations: classpath:mapper/*
 spring:
   application:
-    name: microservice-product-config
+    name: microservice-product-config-bus
   profiles: dev
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
